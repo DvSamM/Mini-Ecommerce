@@ -83,14 +83,14 @@ export const api = {
     }
   },
 
-  // async updateOrderStatus(orderId, status) {
-  //   try {
-  //     // Directly update order status
-  //     const response = await axios.patch(`${API_URL}/orders/${orderId}`, { status });
-  //     return response.data;
-  //   } catch (error) {
-  //     console.error('Error updating order:', error);
-  //     throw new Error('Failed to update order status');
-  //   }
-  // }
+   async updateOrderStatus(orderId, status) {
+    try {
+      // Directly update order status
+       const response = await axios.patch(`${API_URL}/orders/${orderId}`, { status });
+      return response.data;
+   } catch (error) {
+    console.error('Error updating order:', error);
+    throw new Error('Failed to update order status');
+     }
+  }
 };
