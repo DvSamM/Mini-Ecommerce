@@ -37,7 +37,7 @@ const Footer = () => {
             </a>
             
             <a
-              href="https://yourportfolio.com" // Replace with your portfolio URL
+              href="https://sam-s-portfolio-roan.vercel.app/" // Replace with your portfolio URL
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-primary transition-colors"
