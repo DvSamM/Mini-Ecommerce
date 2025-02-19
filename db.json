@@ -113,29 +113,5 @@
       "stock": 13
     }
   ],
-  "orders": [
-    {
-      "id": "1735230855821",
-      "items": [
-        {
-          "id": "6",
-          "name": "Smartphone",
-          "description": "Latest flagship smartphone with advanced camera system",
-          "price": 999.99,
-          "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=500",
-          "details": [
-            "Triple Camera System",
-            "5G Capable",
-            "128GB Storage",
-            "OLED Display"
-          ],
-          "stock": 20,
-          "quantity": 2
-        }
-      ],
-      "total": 1999.98,
-      "status": "completed",
-      "date": "2024-12-26T16:34:15.821Z"
-    }
-  ]
+  "orders": []
 }
